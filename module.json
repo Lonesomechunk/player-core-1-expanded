@@ -1,0 +1,111 @@
+{
+  "id": "player-core-1-expanded",
+  "title": "Player Core 1 Expanded",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "authors": [
+    {
+      "name": "Conner Berkheiser",
+      "discord": "lonesomechunk",
+      "flags": {}
+    },
+    {
+      "name": "Arkon",
+      "discord": "arkon_the_arkivist",
+      "flags": {}
+    },
+    {
+      "name": "Sasha Laranoa Harving",
+      "discord": "stargaladin",
+      "flags": {}
+    },
+    {
+      "name": "Derryzumi",
+      "url": "https://www.dicewillroll.com",
+      "discord": "derryzumi",
+      "flags": {}
+    },
+    {
+      "name": "Ruben Salazar (Lyon)",
+      "discord": "lyon_naglfar",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "label": "PC1 Expanded Feats",
+      "name": "pc1e-feats",
+      "path": "packs/pc1e-feats.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "PC1 Expanded Features",
+      "name": "pc1e-features",
+      "path": "packs/pc1e-features.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "PC1 Expanded Spells",
+      "name": "pc1e-spells",
+      "path": "packs/pc1e-spells.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "PC1 Expanded Effects",
+      "name": "pc1e-effects",
+      "path": "packs/pc1e-effects.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "PC1 Expanded Actions",
+      "name": "pc1e-actions",
+      "path": "packs/pc1e-actions.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "5.11.0",
+        "verified": "5.11.5"
+      }
+    }]
+  },
+  "packFolders": [
+    {
+      "name": "Player Core 1 Expanded",
+      "sorting": "m",
+      "packs": [
+        "pc1e-feats",
+        "pc1e-features",
+        "pc1e-spells",
+        "pc1e-actions",
+        "pc1e-effects"
+      ]
+    }
+  ],
+  "url": "https://github.com/Lonesomechunk/classydragons",
+  "manifest": "https://raw.githubusercontent.com/Lonesomechunk/classydragons/master/module.json",
+  "download": "https://github.com/Lonesomechunk/classydragons/archive/refs/heads/main.zip"
+}
